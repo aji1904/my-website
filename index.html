@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>aji prasetyo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="w3-top" >
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars" style="color: red;"></i>
+            </a>
+
+            <div class="kanan" >
+            <a href="#home" style="transition: 2s" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home white"></i><font class="white">&nbsp;&nbsp;HOME</font></a>
+            <a href="#profile" style="transition: 2s" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user white"></i><font class="white">&nbsp;&nbsp;PROFILE</font></a>
+            <a href="#materi" style="transition: 2s" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th white"></i><font class="white">&nbsp;&nbsp;MATERI</font></a>
+            <a href="#contact" style="transition: 2s" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope white"></i><font class="white"> &nbsp;&nbsp;CONTACT</font></a>
+           	</div>
+        </div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#home" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+            <a href="#profile" class="w3-bar-item w3-button" onclick="toggleFunction()">PROFILE</a>
+            <a href="#materi" class="w3-bar-item w3-button" onclick="toggleFunction()">MATERI</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+
+    <div class="w3-panel" id="home">
+    	<img src="gambar/4.png" class="poto top">
+    	<div class="w3-container bgputih">
+    	<h1>Welcome to My Website</h1><br>
+    	<h4>Nama saya Aji Prasetyo, dari kelas 4CB, saya merupakan mahasiswa aktif di Politeknik Negeri Sriwijaya dan dalam Pembuatan halaman website ini saya menggunakan CSS dari w3school dan menggunakan HTML, Javascript. Website saya terdiri dari Home, Profile, Materi, Contact. Home merupakan halaman depan dari website saya, profile merupakan data diri saya, materi untuk tempat tugas saya, contact ini untuk anda agar bisa menghubungi saya. sekian dan terima kasih telah mengunjungi website saya.</h4>
+    	</div>
+
+    	<div id="profile" class="w3-panel bgputih w3-container" style="padding-bottom: 20px; padding-top: 50px;">
+    		<h1><center><u>PROFILE</u></center></h1><br>
+    		<ul class="w3-ul w3-card" style="font-size: 20px;">
+    			<li class="w3-display-container">NAMA : AJI PRASETYO</li>
+    			<li class="w3-display-container">NIM : 061630700529</li>
+    			<li class="w3-display-container">LAHIR : 19 APRIL 1998</li>
+    			<li class="w3-display-container">KELAS : 4 CB</li>
+    			<li class="w3-display-container">PRODI : D3 Teknik Komputer</li>
+    			<li class="w3-display-container">JURUSAN : Teknik KOmputer</li>
+    			<li class="w3-display-container">HOBI : Main Game</li>
+    		</ul><br>
+
+    		<h1><center><u>FOTO</u></center></h1><br>
+			    
+			    <center><img class="gam" src="gambar/6.jpeg"><br><h5>Foto Kelas</h5></center>
+				<center><img class="gam" src="gambar/7.jpg" style="margin-top: 50px;"><br><h5>Foto Kelas</h5></center>
+				<center><img class="gam" src="gambar/5.jpg" style="margin-top: 50px;"><br><h5>Team Saya</h5></center>
+			    
+    	</div>
+
+    	<div id="materi" class="w3-panel w3-container" style="margin-top: 100px; background-color: white; padding: 50px;">
+    		<h1><center><u>MATERI</u></center></h1><br>
+		    <ul class="w3-ul">
+		    	<li style="margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">1. Program Mengambil IP
+        		<div style="float: right;"><a target="_blank" href="laporan/1.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/1.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			<li style=" margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">2. Program Display Net
+        		<div style="float: right;"><a target="_blank" href="laporan/2.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/2.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			<li style="margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">3. Program Info Client
+        		<div style="float: right;"><a target="_blank" href="laporan/3.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/3.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			<li style="margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">4. Program Info Server
+        		<div style="float: right;"><a target="_blank" href="laporan/4.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/4.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			<li style="margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">5. Program Chat Client
+        		<div style="float: right;"><a target="_blank" href="laporan/5.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/5.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			<li style="margin-bottom: 50px; font-size: 20px;" class="w3-white w3-border w3-border-red w3-round-large">6. Program Chat Server
+        		<div style="float: right;"><a target="_blank" href="laporan/6.docx" style="padding: 20px;"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">Download</button></a><a target="_blank" href="laporan/6.pdf"><button class="w3-button w3-white w3-border w3-border-red w3-round-large">View</button></a></div>
+      			</li>
+      			
+      		</ul>
+    	</div>
+
+    	<div id="contact" class="w3-panel" style="margin-top: 100px; background-color: white; padding-top: 50px;">
+    		<h1><center><u>CONTACT</u></center></h1><br>
+    	<div class="w3-section w3-container">
+	 
+	      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right" style="color: grey"> </i> Email: aji19980419@mail.com</p>
+
+	      <p><i class="fa fa-whatsapp fa-fw w3-xxlarge w3-margin-right" style="color: green;"> </i> Whatsapp: 082311695444</p>
+
+	      <p><i class="fa fa-instagram fa-fw w3-xxlarge w3-margin-right" style="color: red;"> </i> Instagram: Aji.prasetyoo.5</p>
+
+	      <p><i class="fa fa-facebook-official fa-fw w3-xxlarge w3-margin-right" style="color: blue;"> </i> Facebook: Aji Prasetyoo</p>
+	    </div>
+    	</div>
+    	</div>
+
+</body>
+<script>
+        // Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white " ;
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
+
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+
+        function smoothScroll(getID, linkID){
+  			getID.click(function(){
+    		$('html, body').animate({
+      		scrollTop: linkID.offset().top
+    		}, 1500);
+  			});
+		}
+
+		smoothScroll($('#navbar-home'), $('#home'));
+		smoothScroll($('#about-link'), $('#about'));
+		smoothScroll($('#portfolio-link'), $('#portfolio'));
+		smoothScroll($('#report-link'), $('#report'));
+		smoothScroll($('#contact-link'), $('#contact'));
+
+
+</script>
+</html>
